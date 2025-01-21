@@ -12,7 +12,7 @@ boton.addEventListener("click", () => {
     const contraInput = document.getElementById("contra");
 
     (correo === credenciales.correoValido && contra === credenciales.contraValida)
-        ? window.location.href = "./Contactos/contacto.html"
+        ? window.location.href = "./todas/contacto.html"
         : error.textContent = "Correo o contraseña incorrecta!";
     contraInput.value = "";
 
